@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c4e47">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_lounge_fm"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/lounge_fm"
+            android:layout_margin="5dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_relax_fm"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/relax_fm"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_renesans"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/renesans"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_psy_radio"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/psy_radio" />
+    </LinearLayout>
+</LinearLayout>

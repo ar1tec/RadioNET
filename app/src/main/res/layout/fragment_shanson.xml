@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c4e47">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_shanson"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/shanson"
+            android:background="#eeb8b8"
+            android:layout_margin="5dp" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_shanson_two"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/shanson_two"
+            android:layout_margin="5dp"
+            android:background="#c8c1c1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:id="@+id/img_shanson_all_day"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/shanso_all_day" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_lirika_shansona"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/lirika_shansona" />
+    </LinearLayout>
+</LinearLayout>
