@@ -1,0 +1,9 @@
+{
+    "app_name": "Battery Saver 2017",
+	"app_current_package":"usef.batterydoctor.batterysaver.fastcharge",
+	"app_current_version": "2.0.4",
+	"app_current_version_code": 14,
+	"app_should_show_update_popup": "true",
+	"app_current_state": "normal",
+	"app_new_package_if_app_was_suspended":"usef.batterydoctor.batterysaver.fastcharge"
+}
